@@ -1,3 +1,21 @@
+map: https://github.com/tunnima/my-docs
+
+also read: https://0xdf.gitlab.io/2020/08/10/tunneling-with-chisel-and-ssf-update.html#summary
+# Installation:
+```install
+wget https://github.com/securesocketfunneling/ssf/releases/download/3.0.0/ssf-linux-x86_64-3.0.0.zip
+unzip ssf-......
+cd ssf....
+```
+# Running:
+### Server A.A.A.A:
+./ssfd -g -p 8001
+
+### Client B.B.B.B:
+./ssf -R A.A.A.A:3125:127.0.0.1:4445 -p 8001 A.A.A.A
+
+# MAIN
+
 # Secure Socket Funneling
 
 Secure Socket Funneling (SSF) is a network tool and toolkit.
